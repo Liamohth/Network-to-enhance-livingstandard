@@ -303,8 +303,8 @@ input{
 .footer{
 margin-top:50px;
 padding:40px 0;
-color:#000;
-background-color:#fefcf5;
+color:#aaa6a6;
+background-color:#1b1a1a;
 }
 .cta-donate{
   position: absolute;
@@ -326,12 +326,34 @@ background-color:#fefcf5;
  float:left;
  padding:5px 10px;
 }
-.footer-nav li a{
+.footer-nav li a:link,.footer-nav li a:visited{
   font-size:70%;
   font-weight: 300;
-  color:#000
+  color:#aaa6a6;
+  transition:color 0.2s;
+}
+.footer-nav li a:hover,.footer-nav li a:active{
+  color:#fff;
 }
 .social-media{
   float:right;
   padding-left:20px;
+}
+.social-media li{
+  list-style: none;
+  display: inline-block;
+}
+.social-media li a{
+  color:#aaa6a6;
+  font-size:100%;
+  transition:color 0.2s;
+}
+.social-media li a:hover{
+color:#fff;
+}
+.copy-right{
+  padding-bottom:20px;
+  color:#aaa6a6;
+  font-size:65%;
+  text-align: center;
 }
