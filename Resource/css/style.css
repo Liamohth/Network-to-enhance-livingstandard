@@ -357,3 +357,14 @@ color:#fff;
   font-size:65%;
   text-align: center;
 }
+
+@media (min-width: 600px) {
+.hero-text {
+    width: 400px;
+    padding-left: 50px;
+}
+  .row>* {
+    max-width: 90%;
+    padding-right: calc(var(--bs-gutter-x) * 0);
+}
+  }
